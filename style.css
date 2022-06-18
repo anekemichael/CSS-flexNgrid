@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(33, 126, 95);
+}
+a{
+    background: hsl(179, 100%, 13%);
+    text-align:center;
+    padding:20px;
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 200px;
+}
+
+main{
+    font-family: "Lexend Deca" ;
+    font-size: 15px;
+    display:flex;
+    place-content: center;
+    padding:50px;
+}
+section{
+    width:300px;
+    padding:15px;
+}
+.first-section{
+    background:hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.second-section{
+    background:hsl(184, 100%, 22%);
+}
+.third-section{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+#first-anchor{
+    color:hsl(31, 77%, 52%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(0,0%,95%);
+    border-radius:10px;
+}
+#second-anchor{
+    color:hsl(184, 100%, 22%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(0,0%,95%);
+    border-radius:20px;
+}
+#third-anchor{
+    color:hsl(179, 100%, 13%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(0,0%,95%);
+    border-radius:20px;
+}
+#first-anchor:hover{
+    color:hsl(0,0%,95%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(31, 77%, 52%);
+    border-radius:20px;
+    border:2px solid hsl(0,0%,95%);
+}
+#second-anchor:hover{
+    color:hsl(0,0%,95%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(184, 100%, 22%);
+    border-radius:20px;
+    border:2px solid hsl(0,0%,95%);
+}
+#third-anchor:hover{
+    color:hsl(0,0%,95%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(179, 100%, 13%);
+    border-radius:20px;
+    border:2px solid hsl(0,0%,95%);
+}
+.main-paragraph{
+    color: hsl(0,0%,100%,0.75);
+    line-height: 50px;
+}
+
+h1{
+    color:hsl(0,0%,95%);
+}
+
+@media screen and (max-width:948px){
+    main{
+        font-family: "Lexend Deca" ;
+        font-size: 15px;
+        display:flex;
+        place-items: center center;
+        padding:30px;
+        flex-direction: column;
+    }
+    .first-section{
+        background:hsl(31, 77%, 52%);
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+    }
+    .third-section{
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-top-right-radius: 0px;
+    }
+}
